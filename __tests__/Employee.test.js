@@ -1,16 +1,16 @@
 const Employee = require("../lib/Employee");
-const employee = new Employee("John Doe", "001", "johndoe@gmail.com");
+const employee = new Employee("Connor Stroh", "001", "connbstro@gmail.com");
 
 // Employee Object //
 test("creates employee object", () => {
-  expect(employee.name).toBe("John Doe");
+  expect(employee.name).toBe("Connor Stroh");
   expect(employee.id).toBe("001");
-  expect(employee.email).toBe("johndoe@gmail.com");
+  expect(employee.email).toBe("connbstro@gmail.com");
 });
 
 // Test Name //
 test("check if getName() returns name", () => {
-  expect(employee.getName()).toEqual("John Doe");
+  expect(employee.getName()).toEqual("Connor Stroh");
 });
 
 // Test ID //
@@ -20,7 +20,7 @@ test("check if getId() returns ID", () => {
 
 // Test Email //
 test("check if getEmail() returns email address", () => {
-  expect(employee.getEmail()).toEqual("johndoe@gmail.com");
+  expect(employee.getEmail()).toEqual("connbstro@gmail.com");
 });
 
 // Test Role //
