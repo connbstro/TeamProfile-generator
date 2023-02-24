@@ -7,10 +7,10 @@
 AS A manager I WANT to generate a webpage that displays my team's basic info SO THAT I have quick access to their emails and GitHub profiles. In this challenge, the goal was to build a Node.js command-line application that takes in information about employees on a team and generate an HTML webpage that displays summaries like name, email, occupation, etc for each person.
 
 ## **Video Example**
+(https://drive.google.com/file/d/19KQqT4ZVSJkCPLgBt_4ZB8xUkVgh8jXU/view)
 
 ![Screenshot 2023-02-23 at 7 40 35 PM](https://user-images.githubusercontent.com/117555071/221076787-ce80ae29-e292-41fb-9b87-01fd0abd1fcc.png)
 
-<!-- (https://drive.google.com/file/d/1g8awS5oUSSF2yRsQrvKXuZR5yjHPCknJ/view?usp=sharing) -->
 
   <br/>
 
