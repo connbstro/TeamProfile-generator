@@ -27,6 +27,8 @@ AS A manager I WANT to generate a webpage that displays my team's basic info SO 
 
 ### [Usage](#Usage)
 
+### [Credit](#Credit)
+
 ### [Tests](#Tests)
 
 ### [Questions](#Questions)
@@ -42,6 +44,7 @@ AS A manager I WANT to generate a webpage that displays my team's basic info SO 
 - JavaScript
 - Node.js
 - Inquirer
+- Jest
 - Tailwind
 
   <br/>
@@ -59,7 +62,14 @@ In your terminal type, "npm init -y" then “npm install inquirer@8.2.4” to in
 
 ## **Tests**
 
-To test this app, open up the *.test.js files and type "npm run test" to make sure that everything is working appropriately.
+To test this app, open up the \*.test.js files and type "npm run test" to make sure that everything is working appropriately.
+
+  <br/>
+
+## **Credit**
+
+- `inquirer.js` npm package: https://www.npmjs.com/package/inquirer
+- `Jest` npm package: https://www.npmjs.com/package/jest
 
   <br/>
 
