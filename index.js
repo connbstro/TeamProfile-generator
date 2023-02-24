@@ -7,7 +7,7 @@ const generatePage = require("./src/generate-page");
 const teamArray = [];
 
 // Prompt start //
-const displayMenu = () => {
+const showMenu = () => {
   return inquirer
     .prompt([
       {
@@ -27,7 +27,7 @@ const displayMenu = () => {
           break;
         case "Finish Building Team":
           htmlContent = generatePage(teamArray);
-          finishedTeam(htmlContent);
+          finalTeam(htmlContent);
           break;
       }
     });
@@ -66,7 +66,7 @@ const promptManager = () => {
         userInput.officeNumber
       );
       teamArray.push(manager);
-      displayMenu();
+      showMenu();
     });
 };
 
@@ -103,7 +103,7 @@ const promptEngineer = () => {
         userInput.github
       );
       teamArray.push(engineer);
-      displayMenu();
+      showMenu();
     });
 };
 
@@ -140,11 +140,11 @@ const promptIntern = () => {
         userInput.school
       );
       teamArray.push(intern);
-      displayMenu();
+      showMenu();
     });
 };
 
-const finishedTeam = (data) => {
+const finalTeam = (data) => {
   fs.writeFile("./dist/index.html", data, (err) => {
     if (err) {
       console.log(err);
