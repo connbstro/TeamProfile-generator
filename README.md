@@ -8,6 +8,8 @@ AS A manager I WANT to generate a webpage that displays my team's basic info SO 
 
 ## **Video Example**
 
+![Screenshot 2023-02-23 at 7 40 35 PM](https://user-images.githubusercontent.com/117555071/221076787-ce80ae29-e292-41fb-9b87-01fd0abd1fcc.png)
+
 <!-- (https://drive.google.com/file/d/1g8awS5oUSSF2yRsQrvKXuZR5yjHPCknJ/view?usp=sharing) -->
 
   <br/>
